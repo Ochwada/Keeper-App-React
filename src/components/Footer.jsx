@@ -6,10 +6,10 @@ const year = new Date().getFullYear();
 
 function Footer() {
     return (
-        <div>
-            <p> By {myName} </p>
-            <p>copyright@{year}</p>
-        </div>
+        <footer>
+            <p> By {myName} - 
+                copyright@{year}</p>
+        </footer>
     )
 }
 
